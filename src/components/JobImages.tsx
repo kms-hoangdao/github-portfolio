@@ -56,7 +56,7 @@ export const JobImages = ({
                             <Image 
                                 width={400}
                                 height={400}
-                                src={selectedImage || ""}
+                                src={selectedImage ?? ""}
                                 alt={`Project Image for ${role}`}
                                 className="rounded-md border shadow-md object-cover"
                             />
